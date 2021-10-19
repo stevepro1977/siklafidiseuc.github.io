@@ -1,12 +1,22 @@
-<html>
+   
+    
+    
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" >
 <head>
-<title>
-Το πρώτο site 13
-</title>
-  
+  <meta charset="UTF-8">
+  <title>Βιβλιογραφία EBRAIN</title>
+  <div id="site-title" class="assistive-text"><a href="https://ebrain.gr/" target="_blank"><center><h3>Βιβλιογραφία EBRAIN</h3></center></a></div>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'>
+<link rel="stylesheet" href="./stylepin.css">
 </head>
-  <body>
-    <p>
+<body>
+   <p>
   Διδάσκοντες: Νικόλαος Σικλαφίδης, Αλέξανδρος Χαρκιολάκης</p>
     <p>
       Φοιτητές: Ἰωάννης Τσούνης
@@ -14,5 +24,281 @@
       <br> Πέτρος Χουρδάκης
       <br> Μαρίνος Παπαδόπουλος
       </p>
-    </body>
+<!-- partial:index.partial.html -->
+<div class="form-group pull-right">
+    <input type="text" class="search form-control" placeholder="What you looking for?">
+</div>
+<span class="counter pull-right"></span>
+<table class="table table-hover table-bordered results">
+  <thead>
+    <tr>
+      <th class="col-md-1 col-xs-1">α/α</th>
+	  <th class="col-md-2 col-xs-2">Συγγραφέας</th>
+	  <th class="col-md-2 col-xs-2">Κατηγορία</th>
+	  <th class="col-md-3 col-xs-3">Βιβλιογραφική αναφορά</th>
+	  <th class="col-md-3 col-xs-3">Χρόνος</th>
+	  <th class="col-md-3 col-xs-3">Τόπος</th>
+	  <th class="col-md-3 col-xs-3">Εκδόσεις</th>
+	  <th class="col-md-3 col-xs-3">Γλώσσα</th>
+	  <th class="col-md-6 col-xs-6">Media</th>
+	  <th class="col-md-6 col-xs-6">Τεκμηριωτής</th>      
+      <th class="col-md-6 col-xs-6">Ebrain_id</th>
+    </tr>
+    <tr class="warning no-result">
+      <td colspan="4"><i class="fa fa-warning"></i> No result</td>
+    </tr>
+  </thead>
+  <tbody>
+	  
+	   <!-- Νούμερο 1 -->
+    <tr>
+      <th scope="row">1</th>
+	  <td>Νικόλαος Σικλαφίδης</td>
+	  <td>Κατάλογος Χειρογράφων</td>
+	
+	<td>
+          <div class="accordion" id="accordion">
+          <div class="card">
+ 	  <div class="card-header" id="headingTwo">
+      	  <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Σικλαφίδης, ΠΙΠΜ
+          </button>
+      	  </h5>
+   	  </div>
+    	  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      	  <div class="card-body">
+          Σικλαφίδης Νικόλαος, 2019 Τα ψαλτικά χειρόγραφα του Πατριαρχικού Ιδρύματος Πατερικών Μελετών, μεταπτυχιακή εργασία που υποβλήθηκε στο Τμήμα Μουσικών Σπουδών του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης. 
+          </div>
+          </div>
+          </div>
+          </div>
+          </td>
+	<td>2019</td>
+      <td>Θεσσαλονίκη</td>
+	  <td>α.ε.</td>
+      <td>Ελληνικά</td>
+	  <td>Δεν υπάρχει</td>
+	  
+	  <td>Νικόλαος Σικλαφίδης</td>
+	  <td>Ebrain_0000001</td>
+    </tr>
+	  
+	   <!-- Νούμερο 2 -->
+	<tr>
+      <th scope="row">2</th>
+      <td>Corpus Ποίησης</td>
+	  <td>Βιβλίο</td>
+	  <td>  <div class="accordion" id="accordion">
+ 
+          <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+          D'Aiuto, Mauropodas
+        </button>
+      </h5>
+    </div>
+    <div id="collapse2" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+      <div class="card-body">
+        Francesco D'Aiuto, Tre canoni di Giovanni Mauropode in onore di santi militari. 
+      </div>
+    </div>
+  </div>
+</div></td>
+      <td></td>
+      <td></td>
+	  <td></td>
+	  <td></td>
+	  <td></td>
+	  <td>Despina Liontaki</td>
+	  <td>Ebrain_0000002</td>
+    </tr>
+	
+ <!-- Νούμερο 3 -->	
+	<tr>
+      <th scope="row">3</th>
+      <td>Corpus Ποίησης</td>
+      <td>Βιβλίο</td>
+      <td>
+	  
+	  
+	  <div class="accordion" id="accordion">
+ 
+          <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+          ΤαμείονΑΚ
+        </button>
+      </h5>
+    </div>
+    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+      <div class="card-body">
+        Ελ. Παπαηλιοπούλου-Φωτοπούλου, Ταμείον ανεκδότων βυζαντινών ασματικών κανόνων, Αθήνα 1996.
+      </div>
+    </div>
+  </div>
+  </div>
+</td>
+	  <td></td>
+	  <td></td>
+	  <td></td>
+	  <td></td>
+	  <td></td>
+	  <td>Filippos Athinaios</td>
+	  <td>Ebrain_0000003</td>
+    </tr>
+    
+ <!-- Νούμερο 4 -->    
+    <tr>
+      <th scope="row">4</th>
+      <td>Corpus Ποίησης</td>
+	  <td>Βιβλίο</td>
+      <td>
+	  <div class="accordion" id="accordion">
+ 
+          <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+         ABHG
+        </button>
+      </h5>
+    </div>
+    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+      <div class="card-body">
+        Fr. Halkin, Auctarium Bibliothecae Hagiographicae Graecae, [Subsidia Hagiographica 47], Bruxelles 1969.
+      </div>
+    </div>
+  </div>
+  </div>
+  
+	  </td>
+      <td></td>
+	  <td></td>
+      <td></td>
+	  <td></td>
+	  <td></td>
+	  <td>Ioannis Tsounis</td>
+	  <td>Ebrain_0000004</td>
+    </tr>
+	
+
+
+
+
+ <!-- Νούμερο 5 -->
+	<tr>
+      <th scope="row">5</th>
+      <td>Corpus Ποίησης</td>
+	  <td>Βιβλίο</td>
+	  <td>
+	  <div class="accordion" id="accordion">
+ 
+          <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+          AHG
+        </button>
+      </h5>
+    </div>
+    <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
+      <div class="card-body">
+        Analecta Hymnica Graecae e codicibus eruta Italiae Inferioris, IOSEPH SCHIRO consilio et ductu edita, I-XII (Roma 1966-1980).
+      </div>
+    </div>
+  </div>
+          
+          
+  </div>
+	  </td>
+      <td></td>
+      <td></td>
+	  <td></td>
+      <td></td>
+	  <td></td>
+	  <td>Marinos Papadopoulos</td>
+	  <td>Ebrain_0000005</td>
+    </tr>
+
+	   <!-- Νούμερο 6 -->
+	  <tr>
+	<th scope="row">6</th>
+	<td>Corpus Ποίησης</td>
+	  <td>Βιβλίο</td>
+      
+      <td>
+	  <div class="accordion" id="accordion">
+ 
+          <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+          BHG
+        </button>
+      </h5>
+    </div>
+    <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
+      <div class="card-body">
+        Fr. Halkin, Bibliotheca Hagiographica Graeca, [Subsidia Hagiographica 8a], Bruxelles 1957 [= 1986].
+      </div>
+    </div>
+  </div>
+          
+          
+  </div></td>
+      <td></td>
+      <td></td>
+	  <td></td>
+      <td></td>
+	  <td></td>
+	  <td>Nikolaos Petridis</td>
+	  <td>Ebrain_0000006</td>
+    </tr>
+
+	  <!-- Νούμερο 7 -->
+	  <tr>
+	<th scope="row">7</th>
+	<td>Corpus Ποίησης</td>
+	  <td>Βιβλίο</td>
+      
+      <td>
+	  <div class="accordion" id="accordion">
+ 
+          <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+          EE
+        </button>
+      </h5>
+    </div>
+    <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordion">
+      <div class="card-body">
+        Σωφρονίου Εὐστρατιάδου, Εἱρμολόγιον, [Ἁγιορειτικὴ Βιβλιοθήκη 9], Chennevières-sur-Marne 1932 [= Ἀθήνα 2006].
+      </div>
+    </div>
+  </div>
+          
+   </div></td>
+      <td></td>
+      <td></td>
+	  <td></td>
+      <td></td>
+	  <td></td>
+	  <td>Petros Chourdakis</td>
+	  <td>Ebrain_0000007</td>
+      
+	
+  </tbody>
+</table>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.js'></script>
+<script  src="./script.js"></script>
+
+</body>
 </html>
+
